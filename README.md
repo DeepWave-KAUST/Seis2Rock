@@ -1,4 +1,4 @@
-![LOGO](https://github.com/DIG-Kaust/RockAVO-Dev/blob/main/assets/Seis2Rock_Banner_Repo.gif)
+![LOGO](https://github.com/DIG-Kaust/Seis2Rock/blob/main/assets/Seis2Rock_Banner_Repo.gif)
 
 # Seis2Rock
 
