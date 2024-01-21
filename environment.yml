@@ -1,24 +1,25 @@
-name: my_env
+name: seis2rock
 channels:
-  - pytorch
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
-  - python>=3.8
+  - python==3.8.5
   - pip
-  - numpy>=1.15.0
-  - scipy>=1.4.0
-  - cudatoolkit=11.3
-  - pytorch==1.10.1=py3.9_cuda11.3_cudnn8.2.0_0
-  - matplotlib
-  - ipython
-  - jupyter
-  - pylops
-  - torchvision
-  - torchaudio
-  - tqdm
+  - numpy==1.23.3  #1.19.2
+  - scipy==1.5.2
+  - matplotlib==3.4.2
+  - jupyter==1.0.0
   - pip:
-    - cupy-cuda113
-    - setuptools_scm
-    - torchsummary
+    - pylops==2.1.0
+    - pyproximal==0.6.0
+    - segyio==1.9.6
+    - pandas==1.4.1
+    # - git+https://github.com/DIG-Kaust/pysubsurface
+    - numba
+    - pyvista
+    - lasio
     - segyio
+    - seaborn
+    - matplotlib-scalebar
+    - tqdm
+    
